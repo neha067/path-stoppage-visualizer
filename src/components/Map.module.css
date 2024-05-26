@@ -1,4 +1,48 @@
 .leaflet-container {
-  height: 400px;
+  height: 600px;
   width: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(117, 101, 223);
+  justify-content: center;
+}
+.threshold {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 8px 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-self: center;
+  align-items: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  /* background-color: darkorchid; */
+}
+
+.threshold h1 {
+  font-size: 2rem;
+  color: #4ca2e3;
+}
+
+.threshold input {
+  width: 100%;
+  padding: 12px 12px;
+  margin: 10px 8px;
+  box-sizing: border-box;
+  border: 2px solid #4ca2e3;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  /* background-color: rgb(231, 231, 231); */
+  height: 10vh;
 }
